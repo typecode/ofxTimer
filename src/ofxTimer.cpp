@@ -176,3 +176,7 @@ void ofxTimer::stopTimer() {
 bool ofxTimer::isTimerFinished() {
 	return bTimerFinished;
 }
+
+bool ofxTimer::isTimerRunning() {
+    return !bPauseTimer;
+}
